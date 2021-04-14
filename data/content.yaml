@@ -10,6 +10,9 @@ BasicInfo:
     - Icon: fas fa-globe
       Info: smk.minetest.in
       Link: https://smk.minetest.in
+    - Icon: fas fa-blog
+      Info: algo.minetest.in
+      Link: https://algo.minetest.in
     - Icon: fas fa-map-marker-alt
       Info: India
 
@@ -23,8 +26,6 @@ Experience:
         Date: May 2020 - Jun 2020
         Details:
           - Created cost-efficient Method to reach out potential traders using twitter
-          - Created a Python Bot which crawled the twitter
-          - Collected information processed using MySQL as database
           - Created a Cron to deal with API limits saved company around 10k $
           - Successfully collected data of more than 1 lakh people.
         Badges: ['Python', 'AWS', 'MySQL', 'Bash', 'Crons']
@@ -53,11 +54,10 @@ Projects:
         Details:
           - Designed a load-balancing platform targeted for hospitals
           - Focus on real-time collaboration and resource management
-          - node.js backend connected to MongoDB with custom API
-          - Won Best of Google Cloud in SigmaHacks
+          - Won Best Use of Google Cloud in SigmaHacks
         Link : https://carequest.minetest.in
         Github :
-        Badges: ['node.js', 'MongoDB', 'FireBase', 'heroku', 'semantic', 'IBM Watson' , 'PushBot', 'HereMaps', 'Tesseract']
+        Badges: ['node.js', 'MongoDB', 'FireBase', 'heroku', 'semantic-ui', 'HereMaps', 'Tesseract']
   - Domain:
     Details:
       - Title: Handlr
@@ -67,8 +67,14 @@ Projects:
           - Successfully released in university with 5k max online students
         Link :
         Badges: ['node.js', 'MongoDB', 'heroku', 'BootStrap']
-
-
+  - Domain: Data Science
+    Details:
+      - Title: Twitter Bot
+        Date: May 2020 - Jun 2020
+        Details:
+          - Developed a smart python bot capable of finding and separating potential traders on twitter.
+        Link :
+        Badges: ['python', 'MySQL', 'AWS']
 Education:
   - Course: B.E.(Hons.), Electrical and Electronics Engineering, 2022
     Place: BITS Pilani, KK Birla Goa Campus
