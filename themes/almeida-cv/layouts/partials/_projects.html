@@ -1,0 +1,50 @@
+{{ if .Site.Data.content.Projects }}
+<div id="projects" class="section">
+    <div class="section__heading">
+        <h2 class="section__title">{{ i18n "projects" }}</h2>
+    </div>
+    <div class="section__content">
+        <div class="projects">
+            {{ range .Site.Data.content.Projects }}
+            <div class="projects__item">
+                <div class="projects__header">
+                    <h3 class="projects__company">
+                        {{ .Domain | safeHTML }}
+                    </h3>
+                </div>
+                {{ range .Details }}
+                <div class="experience__job">
+                    <div class="experience__subheader">
+                        <h3 class="experience__position">
+                            {{ .Title | safeHTML}}
+								{{ if .Link }}
+								<a href = " {{ .Link }} "><i class="fas fa-external-link-alt"></i></a>
+								{{ end }}
+                        </h3>
+                        <h3 class="experience__date">{{ .Date | safeHTML }}</h3>
+                    </div>
+                    <ul>
+                        {{ range .Details }}
+                        <li class="experience__bullet">{{ . }}</li>
+                        {{ end }}
+                    </ul>
+					
+					<div>
+
+					</div>
+
+                    <div class="experience__badges">
+                        <ul>
+                            {{ range .Badges }}
+                            <li class="experience__badge">{{ . }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

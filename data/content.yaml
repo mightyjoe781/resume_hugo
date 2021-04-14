@@ -1,0 +1,126 @@
+BasicInfo:
+  FirstName: Sudhanshu
+  LastName: Kashyap
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +91 73105 47375
+    - Icon: fas fa-envelope
+      Info: sudhanshumohan781@gmail.com
+    - Icon: fas fa-globe
+      Info: smk.minetest.in
+      Link: https://smk.minetest.in
+    - Icon: fas fa-map-marker-alt
+      Info: India
+
+Profile: Dynamic and Creative Web Developer with over 3 years of experience in producing robust websites. Special inclination towards cyber security aspects of web development. Regular participant in CTFs, Coding Events and Hackathons. In previous role at MySmartPrice developed python based Twitter Data Analysis BOT.
+
+Experience:
+  - Employer: My Smart Price
+    Place: Banglore, India
+    Positions:
+      - Title: Software Developer
+        Date: May 2020 - Jun 2020
+        Details:
+          - Created cost-efficient Method to reach out potential traders using twitter
+          - Created a Python Bot which crawled the twitter
+          - Collected information processed using MySQL as database
+          - Created a Cron to deal with API limits saved company around 10k $
+          - Successfully collected data of more than 1 lakh people.
+        Badges: ['Python', 'AWS', 'MySQL', 'Bash', 'Crons']
+  - Employer: Introduction to Linux
+    Place: CTE BITS
+    Positions:
+      - Title: Instructor
+        Date: Dec 2020 - Jun 2020
+        Details:
+          - Taught fundamental of Linux to freshers
+          - About 120 students successfully completed the workshop
+        Badges: ['GNU/Linux', 'Vim', 'Node.js', 'Bash']
+  - Employer: Student Faculty Committe
+    Place: EEE Department BITS
+    Positions:
+      - Title: Core Member
+        Date: Aug 2019 - Dec 2020
+        Details:
+        Badges:
+
+Projects:
+  - Domain: Web Development
+    Details:
+      - Title: Care Quest
+        Date: July 2020 - Dec 2020
+        Details:
+          - Designed a load-balancing platform targeted for hospitals
+          - Focus on real-time collaboration and resource management
+          - node.js backend connected to MongoDB with custom API
+          - Won Best of Google Cloud in SigmaHacks
+        Link : https://carequest.minetest.in
+        Github :
+        Badges: ['node.js', 'MongoDB', 'FireBase', 'heroku', 'semantic', 'IBM Watson' , 'PushBot', 'HereMaps', 'Tesseract']
+  - Domain:
+    Details:
+      - Title: Handlr
+        Date: Dec 2019 - Jan 2020
+        Details:
+          - Web App that provided exam related information to students
+          - Successfully released in university with 5k max online students
+        Link :
+        Badges: ['node.js', 'MongoDB', 'heroku', 'BootStrap']
+
+
+Education:
+  - Course: B.E.(Hons.), Electrical and Electronics Engineering, 2022
+    Place: BITS Pilani, KK Birla Goa Campus
+    Date: Aug 2018 - May 2022
+    Details: Specialised in Computer Science
+
+
+Skills:
+  - Family: Programming
+    Items:
+      - C/C++
+      - Python
+      - Java
+      - HTML
+      - Javascript
+      - CSS
+      - SQL
+      - MongoDB
+      - Bash
+      - MATLAB
+      - Firebase
+  - Family: Frameworks
+    Items:
+      - Node.js
+      - Flask
+      - Hugo
+      - React
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Docker
+      - VPS
+  - Family: Misc
+    Items:
+      - LaTeX
+      - Lua
+      - Assembly
+
+Languages:
+  - Name: Hindi
+    Level: Native
+  - Name: English
+    Level: Professional
+
+Diplomas:
+  - Web Developer BootCamp (2019)
+  - Hackerank Python Certified (2018)
+
+Interests:
+  - Minetest
+  - Lua_Robots
+  - Cricket
+  - Chess
+  - Design
+  - Languages
